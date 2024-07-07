@@ -1,0 +1,15 @@
+@tailwind components;
+
+@layer components {
+    .userinfo-label {
+        @apply flow-root mb-10 h-7;
+    }
+
+    .userinfo-input {
+        @apply flow-root h-7 p-2 w-full text-black;
+    }
+
+    .userinfo-heading {
+        @apply font-bold text-lg text-center mt-5;
+    }
+}
